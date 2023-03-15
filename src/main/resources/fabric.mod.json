@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "client_permission_fourth",
+  "version": "${version}",
+
+  "name": "ClientPermissionFourth",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/client_permission_fourth/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "marumasa.client_permission_four.client.MinecraftClient"
+    ],
+    "main": [
+      "marumasa.client_permission_four.Minecraft"
+    ]
+  },
+
+          "mixins": [
+        "client_permission_fourth.mixins.json"
+      ],
+
+  "depends": {
+    "fabricloader": ">=0.14.16",
+              "fabric": "*",
+          "minecraft": "1.19.3"
+  }
+}
