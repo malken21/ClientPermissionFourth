@@ -1,0 +1,3 @@
+# ClientPermissionFourth
+権限レベルがなくてもパーミッションレベルをクライアント側では4に設定する
+FabricのMod
