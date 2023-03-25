@@ -1,17 +1,16 @@
 {
   "schemaVersion": 1,
-  "id": "client_permission_fourth",
+  "id": "client_permission_four",
   "version": "${version}",
-
   "name": "ClientPermissionFourth",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/malken21/Minecraft_ClientPermissionFourth_Fabric"
+  },
   "license": "MIT",
-  "icon": "assets/client_permission_fourth/icon.png",
-
-  "environment": "*",
+  "icon": "assets/client_permission_four/icon.png",
+  "environment": "client",
   "entrypoints": {
     "client": [
       "marumasa.client_permission_four.client.MinecraftClient"
@@ -20,14 +19,9 @@
       "marumasa.client_permission_four.Minecraft"
     ]
   },
-
-          "mixins": [
-        "client_permission_fourth.mixins.json"
-      ],
-
   "depends": {
-    "fabricloader": ">=0.14.16",
-              "fabric": "*",
-          "minecraft": "1.19.3"
+    "fabricloader": ">=0.14.18",
+    "fabric": "*",
+    "minecraft": "1.19.4"
   }
 }
