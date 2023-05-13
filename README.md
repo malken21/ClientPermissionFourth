@@ -1,3 +1,3 @@
 # ClientPermissionFourth
-権限レベルがなくてもパーミッションレベルをクライアント側では4に設定する
-FabricのMod
+bukkit.command.gamemodeなどの権限が与えられていなくても、F3+F4によるゲームモード変更を利用できるようにするFabricのMod。 
+サーバーの権限設定関係を問わず変更できるようになります。
